@@ -1,2 +1,24 @@
-# Deep-Sus-Scanner
- A deep file scanner for Windows written in Python that scans every folder (including Windows system directories) for potentially suspicious files based on names, extensions, and VirusTotal detection. Supports SHA-256 hashing, sus scoring, and optional mass deletion.
+# 🧠 Deep Sus Scanner
+
+A powerful deep-scan tool built with Python to help you track, identify, and delete suspicious files from your Windows C: drive — including inside `C:\Windows`.
+
+---
+
+## 🔥 Features
+
+- Scans **ALL** directories, including system folders
+- Uses keyword + extension filters
+- Scores each file's "sus level"
+- Shows SHA-256 hashes
+- Optional VirusTotal lookup
+- Clean delete prompt with indexing
+- Runs in Administrator mode
+
+---
+
+## 🛠 Requirements
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
